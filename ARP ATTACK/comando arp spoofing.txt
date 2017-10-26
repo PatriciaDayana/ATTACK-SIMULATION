@@ -1,0 +1,6 @@
+
+tcpdump -i h3-eth0 -n host 192.168.0.1
+arp
+arp -a
+ettercap -G
+sudo apt-get install ettercap-graphical
